@@ -1,0 +1,12 @@
+# config.py.template
+# Переименуйте этот файл в config.py на сервере и вставьте свои ключи
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+GIGACHAT_API_KEY = 'ВАШ_КЛЮЧ_GIGACHAT'
+TELEGRAM_TOKEN = 'ВАШ_ТОКЕН_TELEGRAM'
+
+KNOLEDGE_BASE_PATH = os.path.join(BASE_DIR, 'data', 'knowledge_base.json')
+RECYCLING_POINTS_PATH = os.path.join(BASE_DIR, 'data', 'recycling_points.csv')
+INTERESTING_FACTS_PATH = os.path.join(BASE_DIR, 'data', 'interesting_facts.json')

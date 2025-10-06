@@ -1,0 +1,9 @@
+# requirements.txt
+pyTelegramBotAPI
+pandas
+gigachat
+apscheduler
+requests
+thefuzz
+python-Levenshtein
+python-dotenv
